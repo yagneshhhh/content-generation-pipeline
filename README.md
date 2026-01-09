@@ -59,3 +59,26 @@ Content Formatter
 Airtable Database
         ↓
 Auto Publish / Manual Review
+
+
+🛠️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/content-automation-pipeline.git
+cd content-automation-pipeline
+
+2️⃣ Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+🔐 Environment Variables
+
+Create a .env file in the root directory:
+
+AIRTABLE_API_KEY=your_airtable_api_key
+AIRTABLE_BASE_ID=your_base_id
+AIRTABLE_TABLE_NAME=Content
+LLM_API_KEY=your_llm_api_key
