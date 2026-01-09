@@ -61,8 +61,10 @@ Airtable Database
 Auto Publish / Manual Review
 
 ```
-##Installation & Setup
-1️⃣ Clone the Repository
+---
+## Installation & Setup
+
+-1️⃣ Clone the Repository
 ```text
 git clone https://github.com/your-username/content-automation-pipeline.git
 cd content-automation-pipeline
